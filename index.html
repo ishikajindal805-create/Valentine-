@@ -1,37 +1,3 @@
-/* Shake Animation */
-@keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-10px); }
-  50% { transform: translateX(10px); }
-  75% { transform: translateX(-10px); }
-  100% { transform: translateX(0); }
-}
-
-.shake {
-  animation: shake 0.4s;
-}
-
-/* Broken heart pop */
-#heartBreak {
-  position:fixed;
-  font-size:50px;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  display:none;
-}
-
-/* Floating hearts */
-.heart {
-  position:fixed;
-  bottom:0;
-  font-size:20px;
-  animation: floatUp 4s linear forwards;
-}
-
-@keyframes floatUp {
-  from { transform:translateY(0); opacity:1; }
-  to { transform:translateY(-600px); opacity:0; }
 }<!DOCTYPE html>
 <html>
 <head>
